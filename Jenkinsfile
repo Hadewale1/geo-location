@@ -23,12 +23,7 @@ pipeline {
           stage('deploy') {
             steps {
                 echo 'deploy step'
-            }
-        }
-          stage('docker') {
-            steps {
-                echo 'image step'
-               
+            }         
             }
         }
     }
